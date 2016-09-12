@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+
+name = input("What is your name? ")
+if name == "Arthur":
+    print("Your name is Arthur.")
+elif name == "Robin":
+    print ("Your name is Robin.")
+elif name == "Im not telling you!":
+    print("You really should tell me.")
+    #you can have as many elifs as you please
+else:
+    print("You have been thrown off the bridge.")
+
